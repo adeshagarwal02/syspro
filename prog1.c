@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "mymath.h"
 
 int main(void)
 {
@@ -8,10 +7,14 @@ int main(void)
 	scanf("%lf",&a);
 	printf("Enter Second no: ");
 	scanf("%lf",&b);
-	printf("Add = %lf\n",myadd(a,b));
-	printf("Sub = %lf\n",mysub(a,b));
-	printf("Mul = %lf\n",mymul(a,b));
-	printf("Div = %lf\n",mydiv(a,b));
+	printf("Add = %lf\n",a+b);
+	printf("Sub = %lf\n",a-b);
+	printf("Mul = %lf\n",a*b);
+	if(b!=0)
+		printf("Div = %lf\n",a/b);
+	else
+		printf("Div = 0\n");
+
 
 	return 0;
 }
