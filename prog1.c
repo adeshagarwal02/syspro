@@ -8,7 +8,7 @@ int main(void)
 	printf("Enter Second no: ");
 	scanf("%lf",&b);
 	printf("Add = %lf\n",myadd(a,b));
-	printf("Sub = %lf\n",a-b);
+	printf("Sub = %lf\n",mysub(a,b));
 	printf("Mul = %lf\n",a*b);
 	if(b!=0)
 		printf("Div = %lf\n",a/b);
